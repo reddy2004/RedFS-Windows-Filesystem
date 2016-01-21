@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "redfs_v2", "redfs_v2\redfs_v2.csproj", "{15BB2C0B-51A8-4736-8FA5-D284C066E743}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Itanium = Debug|Itanium
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Itanium = Release|Itanium
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15BB2C0B-51A8-4736-8FA5-D284C066E743}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{15BB2C0B-51A8-4736-8FA5-D284C066E743}.Debug|Any CPU.Build.0 = Debug|x86
+		{15BB2C0B-51A8-4736-8FA5-D284C066E743}.Debug|Itanium.ActiveCfg = Debug|x86
+		{15BB2C0B-51A8-4736-8FA5-D284C066E743}.Debug|Itanium.Build.0 = Debug|x86
+		{15BB2C0B-51A8-4736-8FA5-D284C066E743}.Debug|x64.ActiveCfg = Debug|x64
+		{15BB2C0B-51A8-4736-8FA5-D284C066E743}.Debug|x64.Build.0 = Debug|x64
+		{15BB2C0B-51A8-4736-8FA5-D284C066E743}.Debug|x86.ActiveCfg = Debug|x86
+		{15BB2C0B-51A8-4736-8FA5-D284C066E743}.Debug|x86.Build.0 = Debug|x86
+		{15BB2C0B-51A8-4736-8FA5-D284C066E743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15BB2C0B-51A8-4736-8FA5-D284C066E743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15BB2C0B-51A8-4736-8FA5-D284C066E743}.Release|Itanium.ActiveCfg = Release|Itanium
+		{15BB2C0B-51A8-4736-8FA5-D284C066E743}.Release|Itanium.Build.0 = Release|Itanium
+		{15BB2C0B-51A8-4736-8FA5-D284C066E743}.Release|x64.ActiveCfg = Release|x64
+		{15BB2C0B-51A8-4736-8FA5-D284C066E743}.Release|x64.Build.0 = Release|x64
+		{15BB2C0B-51A8-4736-8FA5-D284C066E743}.Release|x86.ActiveCfg = Release|x86
+		{15BB2C0B-51A8-4736-8FA5-D284C066E743}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

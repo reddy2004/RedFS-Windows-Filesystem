@@ -1,0 +1,43 @@
+C:\Users\reddyv16\Documents\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.exe
+C:\Users\reddyv16\Documents\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.pdb
+C:\Users\reddyv16\Documents\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\reddyv16\Documents\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.Create_New_Drive.resources
+C:\Users\reddyv16\Documents\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.Create_New_NTFSorFAT32_Drive.resources
+C:\Users\reddyv16\Documents\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.Dedupe_UI.resources
+C:\Users\reddyv16\Documents\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.Drive_Properties.resources
+C:\Users\reddyv16\Documents\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.Exit_Saving.resources
+C:\Users\reddyv16\Documents\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.NewConfigurationUI.resources
+C:\Users\reddyv16\Documents\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.Properties.Resources.resources
+C:\Users\reddyv16\Documents\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.UIToolsCmd.resources
+C:\Users\reddyv16\Documents\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.UIToolsNewDir.resources
+C:\Users\reddyv16\Documents\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\reddyv16\Documents\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\reddyv16\Documents\Visual Studio 2010\Projects\redfs_v2\redfs_v2\bin\Debug\redfs_v2.exe
+C:\Users\reddyv16\Documents\Visual Studio 2010\Projects\redfs_v2\redfs_v2\bin\Debug\redfs_v2.pdb
+C:\Users\reddyv16\Documents\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.RedFS_Drive.resources
+C:\Users\reddyv16\Documents\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.BackupJobDetailsUI.resources
+C:\Users\reddyv16\Documents\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.SelectFolderPair.resources
+C:\Users\reddyv16\Documents\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.New_Backup_Task.resources
+C:\Users\reddyv16\Documents\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.Backup_Worker.resources
+C:\Users\reddyv16\Documents\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.New_Job_Name.resources
+C:\Users\reddyv16\Desktop\BACKUP_REDFS\18th may 2013 morn\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.exe
+C:\Users\reddyv16\Desktop\BACKUP_REDFS\18th may 2013 morn\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.pdb
+C:\Users\reddyv16\Desktop\BACKUP_REDFS\18th may 2013 morn\Visual Studio 2010\Projects\redfs_v2\redfs_v2\bin\Debug\redfs_v2.exe
+C:\Users\reddyv16\Desktop\BACKUP_REDFS\18th may 2013 morn\Visual Studio 2010\Projects\redfs_v2\redfs_v2\bin\Debug\redfs_v2.pdb
+C:\Users\reddyv16\Desktop\BACKUP_REDFS\18th may 2013 morn\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.csprojResolveAssemblyReference.cache
+C:\Users\reddyv16\Desktop\BACKUP_REDFS\18th may 2013 morn\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.BackupJobDetailsUI.resources
+C:\Users\reddyv16\Desktop\BACKUP_REDFS\18th may 2013 morn\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.Backup_Worker.resources
+C:\Users\reddyv16\Desktop\BACKUP_REDFS\18th may 2013 morn\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.Create_New_Drive.resources
+C:\Users\reddyv16\Desktop\BACKUP_REDFS\18th may 2013 morn\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.Create_New_NTFSorFAT32_Drive.resources
+C:\Users\reddyv16\Desktop\BACKUP_REDFS\18th may 2013 morn\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.Dedupe_UI.resources
+C:\Users\reddyv16\Desktop\BACKUP_REDFS\18th may 2013 morn\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.New_Backup_Task.resources
+C:\Users\reddyv16\Desktop\BACKUP_REDFS\18th may 2013 morn\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.New_Job_Name.resources
+C:\Users\reddyv16\Desktop\BACKUP_REDFS\18th may 2013 morn\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.RedFS_Drive.resources
+C:\Users\reddyv16\Desktop\BACKUP_REDFS\18th may 2013 morn\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.Drive_Properties.resources
+C:\Users\reddyv16\Desktop\BACKUP_REDFS\18th may 2013 morn\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.Exit_Saving.resources
+C:\Users\reddyv16\Desktop\BACKUP_REDFS\18th may 2013 morn\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.NewConfigurationUI.resources
+C:\Users\reddyv16\Desktop\BACKUP_REDFS\18th may 2013 morn\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.Properties.Resources.resources
+C:\Users\reddyv16\Desktop\BACKUP_REDFS\18th may 2013 morn\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.SelectFolderPair.resources
+C:\Users\reddyv16\Desktop\BACKUP_REDFS\18th may 2013 morn\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.UIToolsCmd.resources
+C:\Users\reddyv16\Desktop\BACKUP_REDFS\18th may 2013 morn\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.UIToolsNewDir.resources
+C:\Users\reddyv16\Desktop\BACKUP_REDFS\18th may 2013 morn\Visual Studio 2010\Projects\redfs_v2\redfs_v2\obj\x86\Debug\redfs_v2.csproj.GenerateResource.Cache

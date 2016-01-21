@@ -1,0 +1,14 @@
+C:\Users\reddyv16\documents\visual studio 2010\Projects\DedupeDrive_v4\DedupeDrive_v4\obj\x86\Debug\DedupeDrive_v4.exe
+C:\Users\reddyv16\documents\visual studio 2010\Projects\DedupeDrive_v4\DedupeDrive_v4\obj\x86\Debug\DedupeDrive_v4.pdb
+C:\Users\reddyv16\documents\visual studio 2010\Projects\DedupeDrive_v4\DedupeDrive_v4\bin\Debug\DedupeDrive_v4.exe
+C:\Users\reddyv16\documents\visual studio 2010\Projects\DedupeDrive_v4\DedupeDrive_v4\bin\Debug\DedupeDrive_v4.pdb
+C:\Users\reddyv16\documents\visual studio 2010\Projects\DedupeDrive_v4\DedupeDrive_v4\bin\Debug\DokanNet.dll
+C:\Users\reddyv16\documents\visual studio 2010\Projects\DedupeDrive_v4\DedupeDrive_v4\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\reddyv16\documents\visual studio 2010\Projects\DedupeDrive_v4\DedupeDrive_v4\obj\x86\Debug\DedupeDrive_v4.Create_New_Drive.resources
+C:\Users\reddyv16\documents\visual studio 2010\Projects\DedupeDrive_v4\DedupeDrive_v4\obj\x86\Debug\DedupeDrive_v4.Form1.resources
+C:\Users\reddyv16\documents\visual studio 2010\Projects\DedupeDrive_v4\DedupeDrive_v4\obj\x86\Debug\DedupeDrive_v4.Drive_Properties.resources
+C:\Users\reddyv16\documents\visual studio 2010\Projects\DedupeDrive_v4\DedupeDrive_v4\obj\x86\Debug\DedupeDrive_v4.Exit_Saving.resources
+C:\Users\reddyv16\documents\visual studio 2010\Projects\DedupeDrive_v4\DedupeDrive_v4\obj\x86\Debug\DedupeDrive_v4.Properties.Resources.resources
+C:\Users\reddyv16\documents\visual studio 2010\Projects\DedupeDrive_v4\DedupeDrive_v4\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\reddyv16\documents\visual studio 2010\Projects\DedupeDrive_v4\DedupeDrive_v4\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\reddyv16\documents\visual studio 2010\Projects\DedupeDrive_v4\DedupeDrive_v4\obj\x86\Debug\DedupeDrive_v4.NewConfigurationUI.resources

@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{15BB2C0B-51A8-4736-8FA5-D284C066E743}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>redfs_v2</RootNamespace>
+    <AssemblyName>redfs_v2</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Untitled2.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|Itanium'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Itanium\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>Itanium</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|Itanium'">
+    <OutputPath>bin\Itanium\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>Itanium</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DokanNet, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DokanNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoFill.cs" />
+    <Compile Include="BackupJobDetailsUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BackupJobDetailsUI.Designer.cs">
+      <DependentUpon>BackupJobDetailsUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Backup_Utility.cs" />
+    <Compile Include="Backup_Worker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Backup_Worker.Designer.cs">
+      <DependentUpon>Backup_Worker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CDirectory.cs" />
+    <Compile Include="CFile.cs" />
+    <Compile Include="CheckpointInfrastructure.cs" />
+    <Compile Include="CONFIG.cs" />
+    <Compile Include="Create_New_Drive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Create_New_Drive.Designer.cs">
+      <DependentUpon>Create_New_Drive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Create_New_NTFSorFAT32_Drive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Create_New_NTFSorFAT32_Drive.Designer.cs">
+      <DependentUpon>Create_New_NTFSorFAT32_Drive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dedupe UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dedupe UI.Designer.cs">
+      <DependentUpon>Dedupe UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IFSD_Mux.cs" />
+    <Compile Include="New_Backup_Task.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New_Backup_Task.Designer.cs">
+      <DependentUpon>New_Backup_Task.cs</DependentUpon>
+    </Compile>
+    <Compile Include="New_Job_Name.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New_Job_Name.Designer.cs">
+      <DependentUpon>New_Job_Name.cs</DependentUpon>
+    </Compile>
+    <Compile Include="REDFS Drive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REDFS Drive.Designer.cs">
+      <DependentUpon>REDFS Drive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DedupeEngine.cs" />
+    <Compile Include="DEFS.cs" />
+    <Compile Include="DokanEntryPt.cs" />
+    <Compile Include="Drive Properties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drive Properties.Designer.cs">
+      <DependentUpon>Drive Properties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exit Saving.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exit Saving.Designer.cs">
+      <DependentUpon>Exit Saving.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FPDefs.cs" />
+    <Compile Include="FSID.cs" />
+    <Compile Include="Map256M.cs" />
+    <Compile Include="NewConfigurationUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewConfigurationUI.Designer.cs">
+      <DependentUpon>NewConfigurationUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OPS.cs" />
+    <Compile Include="PriorityQueue.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RedFS_TCPServer.cs" />
+    <Compile Include="REFCntManager.cs" />
+    <Compile Include="REFDEF.cs" />
+    <Compile Include="SelectFolderPair.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectFolderPair.Designer.cs">
+      <DependentUpon>SelectFolderPair.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SortAPI.cs" />
+    <Compile Include="UIToolsCmd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIToolsCmd.Designer.cs">
+      <DependentUpon>UIToolsCmd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIToolsNewDir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIToolsNewDir.Designer.cs">
+      <DependentUpon>UIToolsNewDir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZBufferCache.cs" />
+    <Compile Include="REDFS.cs" />
+    <Compile Include="RedBUFDEFS.cs" />
+    <Compile Include="RedFSPersistantStorage.cs" />
+    <Compile Include="RedFS_Inode.cs" />
+    <Compile Include="WRLoader.cs" />
+    <Compile Include="ZTest1.cs" />
+    <EmbeddedResource Include="BackupJobDetailsUI.resx">
+      <DependentUpon>BackupJobDetailsUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Backup_Worker.resx">
+      <DependentUpon>Backup_Worker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create_New_Drive.resx">
+      <DependentUpon>Create_New_Drive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create_New_NTFSorFAT32_Drive.resx">
+      <DependentUpon>Create_New_NTFSorFAT32_Drive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dedupe UI.resx">
+      <DependentUpon>Dedupe UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New_Backup_Task.resx">
+      <DependentUpon>New_Backup_Task.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New_Job_Name.resx">
+      <DependentUpon>New_Job_Name.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REDFS Drive.resx">
+      <DependentUpon>REDFS Drive.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drive Properties.resx">
+      <DependentUpon>Drive Properties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exit Saving.resx">
+      <DependentUpon>Exit Saving.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewConfigurationUI.resx">
+      <DependentUpon>NewConfigurationUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SelectFolderPair.resx">
+      <DependentUpon>SelectFolderPair.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIToolsCmd.resx">
+      <DependentUpon>UIToolsCmd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIToolsNewDir.resx">
+      <DependentUpon>UIToolsNewDir.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Untitled2.ico" />
+    <Content Include="ZNotes.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,94 @@
+﻿							27/11/12	5/12/12		17/12/12	19/1/13		3/2/2013	22/2/2013	1/5/2013
+
+CDirectory.cs				788			819			819			834			879			1023		2081
+CFile.cs					179			297			315			331			380			410			560
+Create_New_Drive.cs			58			58			58			58			58			58			58
+CONFIG.cs														186			186			186			190
+CheckpointInfra													29			29			29			29
+RedFSDrive.cs				240			277			269			455			476			931			1208
+DEFS.cs						132			135			167			165			165			165			192
+DokanEntryPt.cs				182			199			204			220			217			227			230
+Drive Properties.cs			30			30			30			30			30			30			30
+DedupeEngine										296			303			530			530			580
+Exit Saving.cs				27			27			27			27			27			27			27
+FPDefs.cs					126			126			126			126			428			428			428
+FSID.cs						272			292			309			311			325			325			326
+IFSD.cs						662			689			685			656			656			656			*		
+IFSD_Mux.cs														681			883			1073		891
+Map256M.cs					227			227			227			227			227			227			227
+OPS.cs						226			311			453			450			475			482			482
+PriorityQueue.cs			111			111			111			111			111			111			111
+Program.cs					22			22			22			22			22			22			22
+REFCntManager.cs			165			166			216			221			234			234			237
+REFDEF.cs					195			197			237			237			261			261			261
+SortAPI.cs					279			279			279			279			279			279			264
+REDFS.cs					945			1230		1602		1598		1704		1773		1813
+RedFS_Inode.cs				259			252			258			269			311			311			313
+RedBUFDEFS.cs				479			551			347			347			347			347			329
+RedFSPersistantStorage.cs	97			102			221			221			250			250			250
+WRLoader.cs					420			442			570			575			678			679			691
+Zbuffercache							48			43			43			43			43			43
+AutoFill														1167		1225		1246		1246
+Dedupe_UI																	81			81			81
+newconfig_UI																197			197			197
+Tools(total) UI																			98			98
+CreareNEWNTFSFAT.cs																					53
+RedFS_TCPServer.cs																					444
+total						6164		6930		7891		10179		11714		12739		13992
+
+
+a. marking fsid readonly, and zero fsid as non-deleleable/readonly.
+b. Improve upon all dokanentry pt interfaces.
+c. Speed up large file writes by dummy allocation. [done]
+d. improve directory gc, and use dokancontext for faster optimization.
+e. Improve inodebitmap logic.
+f. Proper workflow to commit all transactions before shutdown.
+g. use wrloader to keep track of block frees and allocations. This can be
+   used to predict how much space the fsid is using. [partially done]
+h. Space reporting on a global scale, use the allocation map to find net free space.
+i. Snapshot of all clones, use another bitmap file to perform this operation.
+
+locks up when overwriting large files..
+there is a deadlock when deleting large number of files.
+when multiple clones are created, zbuffercache complains sometimes.
+@wrloader panics when modifiying inode in redfs withou mounting any fsid.
+
+WORK ITEMS
+
+1.	Dont allow mod of zero_drive			[17.1.2013 - 19.1.2013]
+2.	Have another dedicated drive for luns	[17.1.2013 - 29.4.2013]
+3.	Finish the IFSD_Mux interface			[17.1.2013 - 19.1.2013]
+4.	Disk level snapshot(s)					[17.1.2013 - 29.4.2013]
+5.	tlog file must be optimized				[17.1.2013 - ]
+6.	Have proper xor-encyption scheme		[17.1.2013 - ]
+7.	FSID to diskoffset resolution			[17.1.2013 - ] #imp
+8.	code inode->path loading in IFSD_Mux	[17.1.2013 - 2.2.2013]
+9.	Graphical representation of fsidtree	[17.1.2013 - ]
+10.	Boundary handling in diskfull sceanrio	[17.1.2013 - ]
+11.	Automatic update of logical data in UI	[17.1.2013 - 19.1.2013]
+12. Do support for all dokan interfaces		[17.1.2013 - 29.4.2013]
+13. DBN preallocation for large set-eof		[19.1.2013 - 29.4.2013]
+14. File ACM attributes						[19.1.2013 - 29.4.2013]
+15.	Metadata prefetch						[19.1.2013 - ]
+16.	Fix Refcount SYNC Msg					[19.1.2013 - 25.1.2013] #imp
+17.	Add fsid tracking to WRLoader blks		[19.1.2013 - 25.1.2013] #imp
+18.	Improve inodeallocation strategy		[19.1.2013 - ]
+19.	Show space of harddisk correctly		[19.1.2013 - ]
+20. Fix flushcache when shutdown flag=1		[25.1.2013 - ]
+21. Handle IFSDMux after dokan unmount		[25.1.2013 - ]
+22. Check childupdate for L1 file with L0s  [25.1.2013 - ]
+23. Deleting fsid & reloading=>rootdir null [25.1.2013 - ]
+24. Impliment dedupe-overwritten bit		[28.1.2013 - ]
+25. Truncate, with dbnlist is wrong. First 
+	we should create new smaller inode file
+	then free the 'excess' fbns.			[30.1.2013 - ]
+26. Unmount and remount fails desktop.ini	[2.2.2013 - ]
+27. Dedupe fpdb is deleted sometimes		[2.2.2013 - ]
+28. Impliment deletelog and apply when 
+    dedupe starts to the fpdb				[2.2.2013 - ]
+29. Fix folder clone + drive clone error 
+	when a clone file of a cloned dir is
+	modified and then accessed in clone 
+	drive (does not happen after unmount
+	remount, so its incore issue)			[22.2.2013 - ]
+30. Handle UI input (fsid) in tools			[24.2.2013 - ]
