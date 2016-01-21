@@ -1,0 +1,65 @@
+#The first few lines will have main commands.
+maincmd	dummy	0
+maincmd	redfs	1
+maincmd	dedupe	2
+maincmd	drive	3
+maincmd	sis	4
+maincmd subject 5
+maincmd work	6
+
+subcmd  test 0,1,2,3,4
+	-str/-bool/-int		?STRING?/true,false/?INT?
+
+subcmd	status	1
+		-type		summary,verbose
+
+subcmd	inodeinfo2	1
+		-fsid		?INT?
+		-ino/-path	?INT?/?STRING?
+
+subcmd	showdbns 1 
+*	-path/-inode		?STRING?/?INT?
+
+subcmd	dumpinofile	1
+	-fsid			?INT?
+
+subcmd	start	2
+	-docompression	true,false
+	-ignoreshared	true,false
+	-fruit		apple, custardapple, pineapple, mango, strawberry, lemon, orange
+
+subcmd	stop	2
+	
+subcmd	pause	2
+*	-seconds/-minutes	?INT?/?INT?
+
+subcmd	clone	3
+*	-backingdrivename/-backingdrivefsid	?STRING?/?INT?	
+
+subcmd	delete	3
+*	-fsid/-drivename	?INT?/?STRING?
+
+subcmd	mount	3
+*	-fsid/-drivename	?INT?/?STRING?
+
+subcmd	unmount	3
+*	-fsid/-drivename	?INT?/?STRING?
+
+subcmd	config	4
+	-C			false,true
+	-I			false,true
+*	-fsid/-drivename	?INT?/?STRING?
+
+subcmd	add	5
+	-anthropology		?INT?
+	-public-administration	?INT?
+	-sociology		?INT?
+	-computer-science	?INT?
+	-geography		?INT?
+	-philosophy		?INT?
+	-kannada-literature	?INT?
+	-political-science	?INT?
+
+subcmd name	6
+	-units			?INT?
+	-dest			?INT?
