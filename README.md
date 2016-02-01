@@ -1,5 +1,7 @@
 # RedFS-Windows-Filesystem
 
+www.channelapp.org/redfs
+
 (I'm not actively working on this project. If you would like to contribute, please ping me.)
 
 A userspace file system for Windows (using dokan). Supports snapshots, clones and deduplication of files.
